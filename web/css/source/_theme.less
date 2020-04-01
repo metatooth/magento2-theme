@@ -9,8 +9,10 @@
 
 //  Color nesting
 @page__background-color: @color-white;
+@panel__background-color: @threetwenty-color-pink;
 
 //  Headings
+@h1__font-color: @threetwenty-color-pink;
 
 //  Links
 @link__color: @color-white;
@@ -18,22 +20,19 @@
 
 //  Focus
 
-@header__background-color: @threetwenty-color-pink;
-@h1__font-color: @threetwenty-color-pink;
 
-@footer__background-color: @threetwenty-color-pink;
 
 //
 //  Navigation
 //  ---------------------------------------------
 
-@navigation__background: @threetwenty-color-blue;
+@navigation__background: @threetwenty-color-pink;
 
 @navigation-level0-item__color: @color-white;
 @navigation-level0-item__active__color: @color-white;
 
-@submenu-item__color: @color-white;
-@submenu-item__active__color: @color-white;
+@submenu-item__color: @navigation-level0-item__color;
+@submenu-item__active__color: @navigation-level0-item__active__color;
 
 //  Desktop navigation
 
@@ -42,8 +41,11 @@
 @navigation-desktop-level0-item__active__color: @color-white;
 @navigation-desktop-level0-item__active__border-color: @color-white;
 
-@submenu-desktop-item__active__color: @color-white;
+@submenu-desktop-item__active__color: @navigation-level0-item__active__color;
 
+//
+//  Buttons
+//  ---------------------------------------------
 
 //  Primary button
 @button-primary__color: @color-white;
@@ -53,6 +55,8 @@
 @button-primary__border: 1px solid @threetwenty-color-pink;
 @button-primary__hover__border: 1px solid darken(@threetwenty-color-pink, 10%);
 
-//  Header icons
-@header-icons-color: @threetwenty-color-pink;
-@header-icons-color-hover: darken(@threetwenty-color-pink, 10%);
+//
+//  Footer
+//  ----------------------------------------------
+
+@copyright__background-color: @threetwenty-color-pink;
