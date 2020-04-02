@@ -8,8 +8,6 @@
             </arguments>
         </referenceBlock>
 
-	<referenceBlock name="authorization-link" template="%Magento_Customer::authorization.phtml%"/>
-
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
     </body>
