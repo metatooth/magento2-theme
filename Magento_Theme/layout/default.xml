@@ -8,16 +8,7 @@
             </arguments>
         </referenceBlock>
 
-        <referenceBlock name="header.panel" remove="true" />
-
-	<referenceBlock name="top.links">
-	   <block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="register-link">
-                <arguments>
-                    <argument name="label" xsi:type="string" translate="false">Constact Us</argument>
-                    <argument name="path" xsi:type="string" translate="false">contact-us</argument>
-                </arguments>
-            </block>
-	</referenceBlock>
+	<move element="top.links" destination="header-wrapper" after="top.search"/>
 
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
