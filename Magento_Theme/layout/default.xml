@@ -10,10 +10,6 @@
 
 	<referenceBlock name="authorization-link" template="%Magento_Customer::authorization.phtml%"/>
 
-	<move element="authorization-link" destination = "header-wrapper" before="minicart" />
-
-	<referenceBlock name="top.links" remove="true"/>
-
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
     </body>
