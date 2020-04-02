@@ -10,7 +10,7 @@
     
         <referenceBlock name="wish-list-link" remove="true" />
         <referenceBlock name="my-account-link" remove="true" />
-        <referenceBlock name="product-compare-link" remove="true" />
+        <referenceBlock name="compare-products-link" remove="true" />
     
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
