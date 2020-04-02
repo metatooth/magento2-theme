@@ -8,16 +8,10 @@
             </arguments>
         </referenceBlock>
     
-        <referenceBlock name="wish-list-link" remove="true" />          <!--for WishList Link-->
-        <referenceBlock name="my-account-link" remove="true" />         <!--for My Account Link-->
+        <referenceBlock name="wish-list-link" remove="true" />
+        <referenceBlock name="my-account-link" remove="true" />
+        <referenceBlock name="product-compare-link" remove="true" />
     
-        <referenceContainer name="header.panel">
-            <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
-                <arguments>
-                    <argument name="css_class" xsi:type="string">header links</argument>
-                </arguments>
-            </block>
-        </referenceContainer>
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
     </body>
