@@ -4,12 +4,12 @@
             <arguments>
                 <argument name="logo_file" xsi:type="string">images/logo.png</argument>
                 <argument name="logo_img_width" xsi:type="number">200</argument>
-                <argument name="logo_img_height" xsi:type="number">30</argument>
+                <argument name="logo_img_height" xsi:type="number">29</argument>
             </arguments>
         </referenceBlock>
 
         <referenceBlock name="header.panel" remove="true" />
-    
+
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
     </body>
