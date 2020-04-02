@@ -7,10 +7,11 @@
                 <argument name="logo_img_height" xsi:type="number">52</argument>
             </arguments>
         </referenceBlock>
+
+        <referenceBlock name="header.panel" remove="true" />
     
         <referenceBlock name="wish-list-link" remove="true" />
         <referenceBlock name="my-account-link" remove="true" />
-        <referenceBlock name="compare-products-link" remove="true" />
     
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
