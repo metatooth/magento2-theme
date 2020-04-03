@@ -8,7 +8,24 @@
             </arguments>
         </referenceBlock>
 
-	<move element="top.links" destination="header-wrapper" before="minicart" />
+<referenceBlock name="header.links">
+            <!-- Contact us Link -->
+            <block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="register-link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">Constact</argument>
+                    <argument name="path" xsi:type="string" translate="false">contact</argument>
+                </arguments>
+            </block>
+            <!-- CMS Page Link Link -->
+            <block class="Magento\Framework\View\Element\Html\Link" name="aboutus.link" after="contactus.link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">about</argument>
+                    <argument name="path" xsi:type="string" translate="false">about</argument>
+                </arguments>
+            </block>
+
+</referenceBlock>
+        <move element="top.links" destination="header-wrapper" before="minicart" />
 
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
