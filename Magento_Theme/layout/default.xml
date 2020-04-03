@@ -14,7 +14,11 @@
         </referenceBlock>
 
 <referenceContainer name="header.panel">
-            <block class="Magento\Framework\View\Element\Html\Link" name="shop.link">
+  <block class="Magento\Customer\Block\Account\Navigation" name="header.panel.links">
+    <arguments>
+      <argument name="css_class" xsi:type="string">header panel links</argument>
+    </arguments>
+             <block class="Magento\Framework\View\Element\Html\Link" name="shop.link">
                 <arguments>
                     <argument name="label" xsi:type="string" translate="false">Shop</argument>
                     <argument name="path" xsi:type="string" translate="false">shop</argument>
@@ -44,7 +48,7 @@
                     <argument name="path" xsi:type="string" translate="false">contact</argument>
                 </arguments>
             </block>
-
+  </block>
 </referenceContainer>
 
         <move element="header.panel" destination="header-wrapper" before="minicart"/>
