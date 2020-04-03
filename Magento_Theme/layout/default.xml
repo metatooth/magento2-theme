@@ -13,7 +13,7 @@
             </arguments>
         </referenceBlock>
 
-<referenceBlock name="top.links">
+<referenceContainer name="header.panel">
             <block class="Magento\Framework\View\Element\Html\Link" name="shop.link">
                 <arguments>
                     <argument name="label" xsi:type="string" translate="false">Shop</argument>
@@ -45,7 +45,7 @@
                 </arguments>
             </block>
 
-</referenceBlock>
+</referenceContainer>
 
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
