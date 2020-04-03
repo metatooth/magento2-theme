@@ -8,7 +8,7 @@
             </arguments>
         </referenceBlock>
 
-	<move element="top.links" destination="header-wrapper" before="top.search" />
+	<move element="top.links" destination="header-wrapper" before="minicart" />
 
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
