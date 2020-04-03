@@ -47,6 +47,8 @@
 
 </referenceContainer>
 
+        <move element="header.panel" destination="header.container" after="header-wrapper"/>
+
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
     </body>
