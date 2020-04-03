@@ -1,10 +1,9 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="register-link" remove="true" />
-        <referenceBlock name="authorization-link" remove="true" />
-        <referenceBlock name="wish-list-link" remove="true" />
         <referenceBlock name="top.links" remove="true" />
+
 	<move element="my-account-link" destination="header.panel" after="top.search" />
+
 	<referenceBlock name="logo">
             <arguments>
                 <argument name="logo_file" xsi:type="string">images/logo.png</argument>
@@ -13,11 +12,8 @@
             </arguments>
         </referenceBlock>
 
-<referenceContainer name="header.panel">
-  <block class="Magento\Customer\Block\Account\Navigation" name="header.panel.links">
-    <arguments>
-      <argument name="css_class" xsi:type="string">metatooth-header-panel</argument>
-    </arguments>
+	<referenceContainer name="header-wrapper">
+	  <block class="Magento\Customer\Block\Account\Navigation" name="main.links">
              <block class="Magento\Framework\View\Element\Html\Link" name="shop.link">
                 <arguments>
                     <argument name="label" xsi:type="string" translate="false">Shop</argument>
@@ -48,10 +44,8 @@
                     <argument name="path" xsi:type="string" translate="false">contact</argument>
                 </arguments>
             </block>
-  </block>
-</referenceContainer>
-
-        <move element="header.panel" destination="header-wrapper" before="top.search"/>
+	  </block>
+	</referenceContainer>
 
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
