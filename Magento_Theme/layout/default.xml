@@ -14,9 +14,9 @@
         </referenceBlock>
 
 <referenceContainer name="header.panel">
-  <block class="Magento\Customer\Block\Account\Navigation" name="header-panel.links">
+  <block class="Magento\Customer\Block\Account\Navigation" name="header.panel.links">
     <arguments>
-      <argument name="css_class" xsi:type="string">header-panel links</argument>
+      <argument name="css_class" xsi:type="string">header panel links</argument>
     </arguments>
              <block class="Magento\Framework\View\Element\Html\Link" name="shop.link">
                 <arguments>
