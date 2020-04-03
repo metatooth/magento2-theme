@@ -3,6 +3,7 @@
         <referenceBlock name="register-link" remove="true" />
         <referenceBlock name="authorization-link" remove="true" />
         <referenceBlock name="wish-list-link" remove="true" />
+        <referenceBlock name="header" remove="true" />
 	
 	<referenceBlock name="logo">
             <arguments>
