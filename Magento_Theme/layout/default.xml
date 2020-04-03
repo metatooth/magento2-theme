@@ -47,7 +47,7 @@
 
 </referenceContainer>
 
-        <move element="header.panel" destination="header.container" after="header-wrapper"/>
+        <move element="header.panel" destination="header-wrapper" before="minicart"/>
 
 	<referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
