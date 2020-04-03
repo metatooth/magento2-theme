@@ -2,8 +2,6 @@
     <body>
         <referenceBlock name="top.links" remove="true" />
 
-	<move element="my-account-link" destination="header.panel" after="top.search" />
-
 	<referenceBlock name="logo">
             <arguments>
                 <argument name="logo_file" xsi:type="string">images/logo.png</argument>
