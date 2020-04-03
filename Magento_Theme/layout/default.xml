@@ -8,7 +8,7 @@
             </arguments>
         </referenceBlock>
 
-<referenceBlock name="header.links">
+<referenceBlock name="top.links">
             <!-- Contact us Link -->
             <block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="register-link">
                 <arguments>
