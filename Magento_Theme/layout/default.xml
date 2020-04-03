@@ -11,54 +11,9 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container name="main.links" htmlTag="nav" htmlClass="navbar">
+      <container htmlTag="nav" htmlClass="navbar">
 	<container htmlTag="div" htmlClass="navbar-menu">
-	  <container htmlTag="div" htmlClass="navbar-end">
-
-	    <container htmlTag="div" htmlClass="navbar-item">
-	      <block class="Magento\Framework\View\Element\Html\Link" name="shop.link">
-                <arguments>
-                  <argument name="label" xsi:type="string" translate="false">Shop</argument>
-                  <argument name="path" xsi:type="string" translate="false">hard-nightguard.html</argument>
-                </arguments>
-	      </block>
-	    </container>
-	    
-	    <container htmlTag="div" htmlClass="navbar-item">
-              <block class="Magento\Framework\View\Element\Html\Link" name="impressions.link" after="shop.link">
-                <arguments>
-                  <argument name="label" xsi:type="string" translate="false">Impressions</argument>
-                  <argument name="path" xsi:type="string" translate="false">impressions</argument>
-                </arguments>
-              </block>
-	    </container>
-	    
-	    <container htmlTag="div" htmlClass="navbar-item">
-              <block class="Magento\Framework\View\Element\Html\Link" name="faq.link" after="impressions.link">
-                <arguments>
-                  <argument name="label" xsi:type="string" translate="false">FAQ</argument>
-                  <argument name="path" xsi:type="string" translate="false">faq</argument>
-                </arguments>
-              </block>
-	    </container>
-	    
-	    <container htmlTag="div" htmlClass="navbar-item">
-              <block class="Magento\Framework\View\Element\Html\Link" name="aboutus.link" after="faq.link">
-                <arguments>
-                  <argument name="label" xsi:type="string" translate="false">About</argument>
-                  <argument name="path" xsi:type="string" translate="false">about</argument>
-                </arguments>
-              </block>
-	    </container>
-	    
-	    <container htmlTag="div" htmlClass="navbar-item">
-              <block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="aboutus.link">
-                <arguments>
-                  <argument name="label" xsi:type="string" translate="false">Contact</argument>
-                  <argument name="path" xsi:type="string" translate="false">contact</argument>
-                </arguments>
-              </block>
-	    </container>
+	  <container name="main.links" htmlTag="div" htmlClass="navbar-end" label="Main Links">
 
 	  </container>
 	</container>
