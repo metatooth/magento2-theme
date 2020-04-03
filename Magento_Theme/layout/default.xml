@@ -9,18 +9,34 @@
         </referenceBlock>
 
 <referenceBlock name="top.links">
-            <!-- Contact us Link -->
-            <block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="register-link">
+            <block class="Magento\Framework\View\Element\Html\Link" name="shop.link">
                 <arguments>
-                    <argument name="label" xsi:type="string" translate="false">Constact</argument>
-                    <argument name="path" xsi:type="string" translate="false">contact</argument>
+                    <argument name="label" xsi:type="string" translate="false">Shop</argument>
+                    <argument name="path" xsi:type="string" translate="false">shop</argument>
                 </arguments>
             </block>
-            <!-- CMS Page Link Link -->
-            <block class="Magento\Framework\View\Element\Html\Link" name="aboutus.link" after="contactus.link">
+            <block class="Magento\Framework\View\Element\Html\Link" name="impressions.link" after="shop.link">
                 <arguments>
-                    <argument name="label" xsi:type="string" translate="false">about</argument>
+                    <argument name="label" xsi:type="string" translate="false">Impressions</argument>
+                    <argument name="path" xsi:type="string" translate="false">impressions</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Framework\View\Element\Html\Link" name="faq.link" after="impressions.link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">FAQ</argument>
+                    <argument name="path" xsi:type="string" translate="false">faq</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Framework\View\Element\Html\Link" name="aboutus.link" after="faq.link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">About</argument>
                     <argument name="path" xsi:type="string" translate="false">about</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="register-link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">Contact</argument>
+                    <argument name="path" xsi:type="string" translate="false">contact</argument>
                 </arguments>
             </block>
 
