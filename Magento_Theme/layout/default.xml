@@ -11,7 +11,23 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container  name="main.nav" htmlTag="ul" htmlClass="main-nav" label="Main Nav"/>
+      <block class="Magento\Theme\Block\Html\Topmenu" name="main.links">
+	<arguments>
+          <argument name="css_class" xsi:type="string">main links</argument>
+        </arguments>
+	<block class="Magento\Framework\View\Element\Html\Link">
+	  <arguments>
+	    <argument name="label" xsi:type="string">Shop</argument>
+	    <argument name="path" xsi:type="string">hard-nightguard.html</argument>
+	  </arguments>
+	</block>
+	<block class="Magento\Framework\View\Element\Html\Link">
+	  <arguments>
+	    <argument name="label" xsi:type="string">FAQ</argument>
+	    <argument name="path" xsi:type="string">faq</argument>
+	  </arguments>
+	</block>
+      </block>
     </referenceContainer>
 
     <referenceBlock name="report.bugs" remove="true"/>
