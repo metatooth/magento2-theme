@@ -10,7 +10,7 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container htmlClass="main links">
+      <container htmlTag="div" htmlClass="main links">
 	<container htmlTag="ul">
 	  <block class="Magento\Framework\View\Element\Html\Link">
 	    <arguments>
