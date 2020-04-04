@@ -11,8 +11,12 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container htmlTag="div" htmlClass="metatooth-nav">
-	<container name="main.links" htmlTag="ul" label="Main Links" />
+      <container htmlTag="ul" htmlClass="main-nav" label="Main Nav">
+	<block class="Magento\Framework\View\Element\Html\Links" name="main.nav">
+          <arguments>
+            <argument name="css_class" xsi:type="string">main nav</argument>
+          </arguments>
+        </block>
       </container>
     </referenceContainer>
 
