@@ -10,8 +10,8 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container htmlTag="div" htmlClass="main links">
-	<container htmlTag="ul">
+      <container htmlTag="div" htmlClass="main menu">
+	<container htmlTag="ul" htmlClass="menu links">
 	  <block class="Magento\Framework\View\Element\Html\Link">
 	    <arguments>
 	      <argument name="label" xsi:type="string">Shop</argument>
