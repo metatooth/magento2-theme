@@ -12,9 +12,7 @@
 
     <referenceContainer name="header-wrapper">
       <container htmlTag="div" htmlClass="metatooth-nav">
-	<container htmlTag="ul">
-	  <container name="main.links" htmlTag="li" label="Main Links" />
-	</container>
+	<container name="main.links" htmlTag="ul" label="Main Links" />
       </container>
     </referenceContainer>
 
