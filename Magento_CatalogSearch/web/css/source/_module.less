@@ -231,6 +231,26 @@
             position: static;
         }
 
+        .action.search {
+            display: inline-block;
+            .lib-button-icon(
+            @_icon-font-content: @icon-search,
+            @_icon-font-text-hide: true,
+            @_icon-font-color: @header-icons-color
+            );
+            .lib-button-reset();
+            padding: @indent__xs 0;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            z-index: 1;
+
+            &:focus {
+                &:before {
+                    .lib-css(color, @color-gray20);
+                }
+            }
+        }
     }
 
     .search-autocomplete {
