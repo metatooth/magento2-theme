@@ -15,7 +15,8 @@
 
 & when (@media-common = true) {
 
-    .panel.header {
+    .panel.header,
+    .main.menu {
         .links,
         .switcher {
             display: none;
@@ -143,6 +144,7 @@
                 }
             }
         }
+
         .header.links {
             .lib-list-reset-styles();
             border-bottom: 1px solid @color-gray82;
@@ -172,6 +174,33 @@
             }
 
             .header.links {
+                border: 0;
+            }
+	}
+
+        .menu.links {
+            .lib-list-reset-styles();
+            border-bottom: 1px solid @color-gray82;
+
+            li {
+                font-size: 1.6rem;
+                margin: 0;
+
+                > a {
+                    border-top: 1px solid @color-gray82;
+                }
+            }
+
+            a,
+            a:hover {
+                .lib-css(color, @link__color);
+                .lib-css(text-decoration, @navigation-level0-item__text-decoration);
+                display: block;
+                font-weight: @font-weight__bold;
+                padding: .8rem @submenu__padding-left;
+            }
+
+            .menu.links {
                 border: 0;
             }
         }
@@ -309,7 +338,8 @@
 
     .lib-main-navigation-desktop();
 
-    .panel.header {
+    .panel.header,
+    .main.menu {
         .links,
         .switcher {
             display: inline-block;
