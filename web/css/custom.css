@@ -1,8 +1,6 @@
-.main .links {
-    ul {
-	list-style-type: none;
-	overflow: hidden;
-    }
+ul.main.links {
+    list-style-type: none;
+    overflow: hidden;
 
     li {
 	float: left;
