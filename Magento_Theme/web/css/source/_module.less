@@ -127,6 +127,38 @@
         }
     }
 
+    .main.menu {
+        > .menu.links {
+            .lib-list-inline();
+            float: right;
+            font-size: 0;
+            margin-left: auto;
+            margin-right: @indent__base;
+
+            > li {
+                font-size: @font-size__base;
+                margin: 0 0 0 15px;
+
+                &.customer-welcome {
+                    margin: 0 0 0 5px;
+                }
+
+                > a {
+                    .lib-link(
+                    @_link-color: @link__color,
+                    @_link-text-decoration: none,
+                    @_link-color-visited: @link__color,
+                    @_link-text-decoration-visited: none,
+                    @_link-color-hover: @link__color,
+                    @_link-text-decoration-hover: underline,
+                    @_link-color-active: @link__color,
+                    @_link-text-decoration-active: underline
+                    );
+                }
+            }
+        }
+    }
+
     .header {
         &.content:extend(.abs-add-clearfix all) {
             padding-top: @indent__s;
