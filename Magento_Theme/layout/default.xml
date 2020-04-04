@@ -11,13 +11,7 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container htmlTag="ul" htmlClass="main-nav" label="Main Nav">
-	<block class="Magento\Framework\View\Element\Html\Links" name="main.nav">
-          <arguments>
-            <argument name="css_class" xsi:type="string">main nav</argument>
-          </arguments>
-        </block>
-      </container>
+      <container  name="main.nav" htmlTag="ul" htmlClass="main-nav" label="Main Nav"/>
     </referenceContainer>
 
     <referenceBlock name="report.bugs" remove="true"/>
