@@ -10,7 +10,7 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container htmlTag="div" htmlClass="main menu" before="top.search">
+      <container htmlTag="div" htmlClass="main menu" after="top.search">
 	<container htmlTag="ul" htmlClass="menu links">
 	  <block class="Magento\Framework\View\Element\Html\Link">
 	    <arguments>
