@@ -11,10 +11,7 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <block class="Magento\Theme\Block\Html\Topmenu" name="main.links">
-	<arguments>
-          <argument name="css_class" xsi:type="string">main links</argument>
-        </arguments>
+      <container name="main.links" htmlTag="ul" htmlClass="main links">
 	<block class="Magento\Framework\View\Element\Html\Link">
 	  <arguments>
 	    <argument name="label" xsi:type="string">Shop</argument>
@@ -27,7 +24,19 @@
 	    <argument name="path" xsi:type="string">faq</argument>
 	  </arguments>
 	</block>
-      </block>
+	<block class="Magento\Framework\View\Element\Html\Link">
+	  <arguments>
+	    <argument name="label" xsi:type="string">About</argument>
+	    <argument name="path" xsi:type="string">about</argument>
+	  </arguments>
+	</block>
+	<block class="Magento\Framework\View\Element\Html\Link">
+	  <arguments>
+	    <argument name="label" xsi:type="string">Contact</argument>
+	    <argument name="path" xsi:type="string">contact</argument>
+	  </arguments>
+	</block>
+      </container>
     </referenceContainer>
 
     <referenceBlock name="report.bugs" remove="true"/>
