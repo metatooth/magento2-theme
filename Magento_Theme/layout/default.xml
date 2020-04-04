@@ -1,6 +1,5 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
   <body>
-    <referenceBlock name="top.links" remove="true" />
 
     <referenceBlock name="logo">
       <arguments>
@@ -11,37 +10,39 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container name="main.links" htmlTag="ul" htmlClass="main links">
-	<block class="Magento\Framework\View\Element\Html\Link">
-	  <arguments>
-	    <argument name="label" xsi:type="string">Shop</argument>
-	    <argument name="path" xsi:type="string">hard-nightguard.html</argument>
-	  </arguments>
-	</block>
-	<block class="Magento\Framework\View\Element\Html\Link">
-	  <arguments>
-	    <argument name="label" xsi:type="string">Impressions</argument>
-	    <argument name="path" xsi:type="string">impressions</argument>
-	  </arguments>
-	</block>
-	<block class="Magento\Framework\View\Element\Html\Link">
-	  <arguments>
-	    <argument name="label" xsi:type="string">FAQ</argument>
-	    <argument name="path" xsi:type="string">faq</argument>
-	  </arguments>
-	</block>
-	<block class="Magento\Framework\View\Element\Html\Link">
-	  <arguments>
-	    <argument name="label" xsi:type="string">About</argument>
-	    <argument name="path" xsi:type="string">about</argument>
-	  </arguments>
-	</block>
-	<block class="Magento\Framework\View\Element\Html\Link">
-	  <arguments>
-	    <argument name="label" xsi:type="string">Contact</argument>
-	    <argument name="path" xsi:type="string">contact</argument>
-	  </arguments>
-	</block>
+      <container htmlClass="main links">
+	<container htmlTag="ul">
+	  <block class="Magento\Framework\View\Element\Html\Link">
+	    <arguments>
+	      <argument name="label" xsi:type="string">Shop</argument>
+	      <argument name="path" xsi:type="string">hard-nightguard.html</argument>
+	    </arguments>
+	  </block>
+	  <block class="Magento\Framework\View\Element\Html\Link">
+	    <arguments>
+	      <argument name="label" xsi:type="string">Impressions</argument>
+	      <argument name="path" xsi:type="string">impressions</argument>
+	    </arguments>
+	  </block>
+	  <block class="Magento\Framework\View\Element\Html\Link">
+	    <arguments>
+	      <argument name="label" xsi:type="string">FAQ</argument>
+	      <argument name="path" xsi:type="string">faq</argument>
+	    </arguments>
+	  </block>
+	  <block class="Magento\Framework\View\Element\Html\Link">
+	    <arguments>
+	      <argument name="label" xsi:type="string">About</argument>
+	      <argument name="path" xsi:type="string">about</argument>
+	    </arguments>
+	  </block>
+	  <block class="Magento\Framework\View\Element\Html\Link">
+	    <arguments>
+	      <argument name="label" xsi:type="string">Contact</argument>
+	      <argument name="path" xsi:type="string">contact</argument>
+	    </arguments>
+	  </block>
+	</container>
       </container>
     </referenceContainer>
 
