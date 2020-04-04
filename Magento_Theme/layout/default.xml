@@ -11,11 +11,9 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <container htmlTag="nav" htmlClass="navbar">
-	<container htmlTag="div" htmlClass="navbar-menu">
-	  <container name="main.links" htmlTag="div" htmlClass="navbar-end" label="Main Links">
-
-	  </container>
+      <container htmlTag="div" htmlClass="metatooth-nav">
+	<container htmlTag="ul">
+	  <container name="main.links" htmlTag="li" label="Main Links" />
 	</container>
       </container>
     </referenceContainer>

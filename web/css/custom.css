@@ -1,3 +1,14 @@
-metatooth-header-panel {
-    color: #ff33bb;
+.metatooth-nav {
+    ul {
+	list-style-type: none;
+	overflow: hidden;
+    }
+
+    li {
+	float: left;
+    }
+
+    li a {
+	display: block;
+    }
 }
