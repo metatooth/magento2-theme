@@ -21,7 +21,7 @@
 	  </block>
 	  <block class="Magento\Framework\View\Element\Html\Link">
 	    <arguments>
-	      <argument name="label" xsi:type="string">Impressions</argument>
+	      <argument name="label" xsi:type="string">How To</argument>
 	      <argument name="path" xsi:type="string">impressions</argument>
 	    </arguments>
 	  </block>
