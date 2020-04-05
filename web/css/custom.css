@@ -1,12 +1,9 @@
-ul.main.links {
-    list-style-type: none;
-    overflow: hidden;
-
-    li {
-	float: left;
-    }
-
-    li a {
-	display: block;
-    }
+.main-banner {
+    position: relative;
+    background-image: url(../images/title-hero-custom-mouthguard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    min-height: 600px;
 }
