@@ -44,16 +44,32 @@
 //  Main Banner
 //  ---------------------------------------------
 
-.main-banner {
-    position: relative;
-    background-image: url(../images/title-hero-custom-mouthguard.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    margin: auto;
-    min-height: 600px;
+& when (@media-common = true) {
+    .main-banner {
+	position: relative;
+	background-image: url(../images/title-hero-custom-mouthguard.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: auto;
+	min-height: 600px;
+    }
 }
 
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+   .main-banner {
+       min-height: 0;
+       height: 0;
+       padding-bottom: 90%;
+       background-image: url(../images/sm-title-hero-custom-mouthguard.jpg);
+   }
+}
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+   .main-banner {
+       padding-bottom: 125%;
+   }
+}
 //
 //  Buttons
 //  ---------------------------------------------
