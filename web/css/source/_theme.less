@@ -52,7 +52,6 @@
 	background-position: 50% 50%;
 	text-align: center;
 	margin: auto;
-	min-height: 600px;
     }
 }
 
@@ -68,12 +67,14 @@
        height: 0;
        padding-bottom: 90%;
        background-image: url(../images/sm-title-hero-custom-mouthguard.jpg);
+       min-height: 100px;
    }
 }
 
 .media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
     .main-banner {
 	background-image: url(../images/title-hero-custom-mouthguard.jpg);
+	min-height: 400px;
     }
 }
 
