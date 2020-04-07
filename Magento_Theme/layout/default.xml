@@ -61,21 +61,21 @@
       <block class="Magento\Framework\View\Element\Html\Link\Current" name="material-safety-link" after="blog-link">
         <arguments>
           <argument name="label" xsi:type="string">Material Safety</argument>
-          <argument name="path" xsi:type="string">2020/02/28/material-safety-nightguard</argument>
+          <argument name="path" xsi:type="string">2020/02/28/material-safety-nightguard/</argument>
         </arguments>
       </block>
 
       <block class="Magento\Framework\View\Element\Html\Link\Current" name="nightguard-care-link" after="material-safety-link">
         <arguments>
           <argument name="label" xsi:type="string">Mouthguard Care</argument>
-          <argument name="path" xsi:type="string">2020/03/13/cleaning-custom-night-guard</argument>
+          <argument name="path" xsi:type="string">2020/03/13/cleaning-custom-night-guard/</argument>
         </arguments>
       </block>
 
       <block class="Magento\Framework\View\Element\Html\Link\Current" name="impression-kit-link" after="nightguard-care-link">
         <arguments>
           <argument name="label" xsi:type="string">Impression Kit</argument>
-          <argument name="path" xsi:type="string">/impressions</argument>
+          <argument name="path" xsi:type="string">impressions</argument>
         </arguments>
       </block>
 
