@@ -54,7 +54,7 @@
       <block class="Magento\Framework\View\Element\Html\Link\Current" name="blog-link" after="contact-us-link">
         <arguments>
           <argument name="label" xsi:type="string">Blog</argument>
-          <argument name="path" xsi:type="string">/blog</argument>
+          <argument name="path" xsi:type="string">blog</argument>
         </arguments>
       </block>
     </referenceBlock>
