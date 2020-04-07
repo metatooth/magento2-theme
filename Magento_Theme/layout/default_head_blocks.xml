@@ -2,6 +2,6 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link src="Magento_Theme::favicon-32x32.png" rel="icon" sizes="32x32" />
-	<css src="css/custom.css"
+	<css src="css/custom.css"/>
     </head>
 </page>
