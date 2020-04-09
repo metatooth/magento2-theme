@@ -14,7 +14,7 @@ if ($block->isLoggedIn()) {
 <div class="authorization-link" data-label="<?= $block->escapeHtml(__('or')) ?>">
     <a <?= /* @noEscape */ $block->getLinkAttributes() ?><?= /* @noEscape */ $dataPostParam ?>>
        <span class="<?php echo $this->isLoggedIn() ? __('class-logged-in') : __('class-logged-out'); ?>">
-            <?php echo $this->isLoggedIn() ? __('Sign Out') : __('Sign In'); ?>
+           <span class="text"><?php echo $this->isLoggedIn() ? __('Sign Out') : __('Sign In'); ?></span>
        </span>
     </a>
 </div>
