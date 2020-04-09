@@ -11,12 +11,17 @@
     </referenceBlock>
 
     <referenceContainer name="header-wrapper">
-      <block class="Magento\Customer\Block\Account\Link" name="my-account-link">
-	<arguments>
-	  <argument name="label" xsi:type="string" translate="true">My Account</argument>
-	  <argument name="class" xsi:type="string" translate="true">account-link</argument>
-	</arguments>
-      </block>
+
+      <container htmlTag="div" htmlClass="block block-account" after="top.search">
+	<container htmlTag="ul" htmlClass="account links">
+	  <block class="Magento\Customer\Block\Account\Link" name="my-account-link">
+	    <arguments>
+	      <argument name="label" xsi:type="string" translate="true">My Account</argument>
+	      <argument name="class" xsi:type="string" translate="true">account-link</argument>
+	    </arguments>
+	  </block>
+	</container>
+      </container>
 
       <container htmlTag="div" htmlClass="main menu" after="top.search">
 	<container htmlTag="ul" htmlClass="menu links">
