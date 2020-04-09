@@ -41,9 +41,9 @@
 @h1__margin-bottom__desktop: @indent__xl;
 
 //  Footer
-@footer__background-color: @color-white;
+@footer__background-color: @threetwenty-color-pink;
 @footer-links-separator-border-color: @color-gray-light4;
-@footer-links-color: @threetwenty-color-pink;
+@footer-links-color: @color-white;
 @footer-links-color-hover: darken(@threetwenty-color-pink, 10%);
 @footer-links-color-current: darken(@threetwenty-color-pink, 10%);
 
@@ -182,6 +182,14 @@
             display: inline-block;
             float: none;
         }
+    }
+
+    .class-log-in {
+	.lib-icon-font(@icon-user-circle-solid);
+    }
+
+    .class-log-out {
+	.lib-icon-font(@icon-user-circle-regular);
     }
 
     .page-print {
