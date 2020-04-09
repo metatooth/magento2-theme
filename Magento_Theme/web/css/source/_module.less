@@ -185,11 +185,23 @@
     }
 
     .class-logged-in {
-	.lib-icon-font(@icon-wishlist-empty);
+	.lib-icon-font(
+        @icon-wishlist-empty,
+        @_icon-font-size: 28px,
+        @_icon-font-color: @header-icons-color,
+        @_icon-font-color-hover: @header-icons-color-hover
+	);
+	.lib-icon-text-hide();
     }
 
     .class-logged-out {
-	.lib-icon-font(@icon-wishlist-full);
+	.lib-icon-font(
+        @icon-wishlist-full,
+        @_icon-font-size: 28px,
+        @_icon-font-color: @header-icons-color,
+        @_icon-font-color-hover: @header-icons-color-hover
+	);
+	.lib-icon-text-hide();
     }
 
     .page-print {
