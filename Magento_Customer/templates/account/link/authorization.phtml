@@ -15,6 +15,6 @@ if ($block->isLoggedIn()) {
     <a <?= /* @noEscape */ $block->getLinkAttributes() ?><?= /* @noEscape */ $dataPostParam ?>>
        <span class="<?php echo $this->isLoggedIn() ? __('class-log-in') : __('class-log-out'); ?>">
             <?php echo $this->isLoggedIn() ? __('Sign Out') : __('Sign In'); ?>
-       <span/>
+       </span>
     </a>
 </div>
