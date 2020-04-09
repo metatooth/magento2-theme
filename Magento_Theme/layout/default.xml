@@ -10,8 +10,6 @@
       </arguments>
     </referenceBlock>
 
-    <move element="authorization-link" destination="header-wrapper" before="minicart" />
-
     <referenceContainer name="header-wrapper">
       <container htmlTag="div" htmlClass="block block-menu" before="top.search">
 	<container htmlTag="ul" htmlClass="menu links">
@@ -49,8 +47,9 @@
       </container>
     </referenceContainer>
 
-    <referenceBlock name="report.bugs" remove="true"/>
+    <move element="authorization-link" destination="header-wrapper" before="top.search" />
 
+    <referenceBlock name="report.bugs" remove="true"/>
 
     <referenceBlock name="footer_links">
       <block class="Magento\Framework\View\Element\Html\Link\Current" name="blog-link" after="contact-us-link">
