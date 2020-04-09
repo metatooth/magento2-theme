@@ -10,10 +10,10 @@
       </arguments>
     </referenceBlock>
 
-    <move element="authorization-link" destination = "header-wrapper" before="minicart" />
+    <move element="authorization-link" destination="header-wrapper" before="minicart" />
 
     <referenceContainer name="header-wrapper">
-      <container htmlTag="div" htmlClass="block block-menu" after="top.search">
+      <container htmlTag="div" htmlClass="block block-menu" before="top.search">
 	<container htmlTag="ul" htmlClass="menu links">
 	  <block class="Magento\Framework\View\Element\Html\Link">
 	    <arguments>
