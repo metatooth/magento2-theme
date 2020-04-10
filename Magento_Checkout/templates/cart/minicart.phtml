@@ -7,12 +7,10 @@
 /** @var $block \Magento\Checkout\Block\Cart\Sidebar */
 ?>
 
-<div data-block="minicart" class="minicart-wrapper">
+<div data-block="minicart" class="minicart-wrapper fas fa-shopping-cart">
     <a class="action showcart" href="<?= $block->escapeUrl($block->getShoppingCartUrl()) ?>"
        data-bind="scope: 'minicart_content'">
-        <span class="fas fa-shopping-cart">
-          <span class="text"><?= $block->escapeHtml(__('My Cart')) ?></span>
-	</span>
+        <span class="text"><?= $block->escapeHtml(__('My Cart')) ?></span>
         <span class="counter qty empty"
               data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading() }, blockLoader: isLoading">
             <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
