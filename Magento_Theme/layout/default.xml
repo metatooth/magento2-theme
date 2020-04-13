@@ -49,6 +49,9 @@
 
     <move element="authorization-link" destination="header-wrapper" before="top.search" />
 
+    <referenceBlock name="store.menu" remove="true"/>
+    <referenceBlock name="store.links" remove="true"/>
+    
     <referenceBlock name="report.bugs" remove="true"/>
 
     <referenceBlock name="footer_links">
