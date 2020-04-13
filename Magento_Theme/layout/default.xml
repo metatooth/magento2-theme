@@ -53,12 +53,12 @@
     <referenceBlock name="store.links" remove="true"/>
 
     <referenceBlock name="navigation.sections">
-	  <block class="Magento\Framework\View\Element\Html\Link">
-	    <arguments>
-	      <argument name="label" xsi:type="string">About</argument>
-	      <argument name="path" xsi:type="string">about</argument>
-	    </arguments>
-	  </block>
+        <block class="Magento\Framework\View\Element\Template" name="main.sections" before="-" template="Magento_Theme::html/sections.phtml">
+            <arguments>
+                <argument name="group_name" xsi:type="string">main-sections</argument>
+                <argument name="group_css" xsi:type="string">main-sections</argument>
+            </arguments>
+	</block>
     </referenceBlock>
     
     <referenceBlock name="report.bugs" remove="true"/>
