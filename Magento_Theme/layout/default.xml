@@ -51,6 +51,15 @@
 
     <referenceBlock name="store.menu" remove="true"/>
     <referenceBlock name="store.links" remove="true"/>
+
+    <referenceBlock name="navigation.sections">
+	  <block class="Magento\Framework\View\Element\Html\Link">
+	    <arguments>
+	      <argument name="label" xsi:type="string">About</argument>
+	      <argument name="path" xsi:type="string">about</argument>
+	    </arguments>
+	  </block>
+    </referenceBlock>
     
     <referenceBlock name="report.bugs" remove="true"/>
 
