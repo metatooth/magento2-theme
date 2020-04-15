@@ -49,15 +49,7 @@
 
     <move element="authorization-link" destination="header-wrapper" before="top.search" />
 
-    <referenceBlock name="navigation.sections">
-      <block class="Magento\Framework\View\Element\Text" name="main.links" group="navigation-sections">
-	<arguments>
-          <argument name="title" translate="true" xsi:type="string">Links</argument>
-          <argument name="use_force" xsi:type="boolean">true</argument>
-          <argument name="text" xsi:type="string"><![CDATA[<!-- Main links -->]]></argument>
-        </arguments>
-      </block>
-    </referenceBlock>
+    <referenceBlock name="navigation.sections" remove="true">
     
     <referenceBlock name="report.bugs" remove="true"/>
 
