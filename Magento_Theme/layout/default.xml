@@ -49,7 +49,7 @@
 
     <move element="authorization-link" destination="header-wrapper" before="top.search" />
 
-    <referenceBlock name="navigation.sections" display="false">
+    <referenceBlock name="catalog.topnav" remove="true">
 
     <referenceBlock name="report.bugs" remove="true"/>
 
