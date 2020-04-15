@@ -8,7 +8,9 @@
       </arguments>
     </referenceBlock>
 
-    <move element="top.links" destination="header-wrapper" before="top.search"/>
+    <referenceBlock name="top.links" remove="true"/>
+
+    <referenceBlock name="catalog.topnav" remove="true"/>
 
     <referenceContainer name="header-wrapper">
       <container htmlTag="div" htmlClass="block block-menu" before="top.search">
@@ -48,8 +50,6 @@
     </referenceContainer>
 
     <move element="authorization-link" destination="header-wrapper" before="top.search" />
-
-    <referenceBlock name="catalog.topnav" remove="true">
 
     <referenceBlock name="report.bugs" remove="true"/>
 
