@@ -12,6 +12,10 @@
 
     <referenceBlock name="catalog.topnav" remove="true"/>
 
+    <referenceBlock name="store.menu">
+      <block class="Magento\Theme\Block\Html\Topmenu" name="store.topnav" template="Magento_Theme::html/topmenu.phtml" ttl="3600" before="-"/>
+    </referenceBlock>
+
     <referenceContainer name="header-wrapper">
       <container htmlTag="div" htmlClass="block block-menu" before="top.search">
 	<container htmlTag="ul" htmlClass="menu links">
