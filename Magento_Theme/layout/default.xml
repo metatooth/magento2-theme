@@ -49,9 +49,6 @@
 
     <move element="authorization-link" destination="header-wrapper" before="top.search" />
 
-    <referenceBlock name="store.menu" remove="true"/>
-    <referenceBlock name="store.links" remove="true"/>
-
     <referenceBlock name="navigation.sections">
         <block class="Magento\Framework\View\Element\Template" name="main.sections" before="-" template="Magento_Theme::html/sections.phtml">
             <arguments>
