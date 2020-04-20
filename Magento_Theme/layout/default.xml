@@ -8,9 +8,6 @@
       </arguments>
     </referenceBlock>
 
-    <referenceBlock name="store.menu" remove="true"/>
-    <referenceBlock name="store.links" remove="true"/>
-
     <referenceBlock name="navigation.sections">
       <block class="Magento\Framework\View\Element\Text" name="menu.links" group="navigation-sections">
         <arguments>
