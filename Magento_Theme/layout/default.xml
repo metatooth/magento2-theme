@@ -11,6 +11,8 @@
     <move element="top.links" destination="header-wrapper" before="top.search"/>
 
     <referenceBlock name="header" remove="true"/>
+    <referenceBlock name="my-account-link" remove="true"/>
+    <referenceBlock name="register-link" remove="true"/>
 
     <referenceBlock name="top.links">
       <block class="Magento\Framework\View\Element\Html\Link">
