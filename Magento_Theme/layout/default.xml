@@ -10,6 +10,8 @@
 
     <move element="top.links" destination="header-wrapper" before="top.search"/>
 
+    <referenceBlock name="header" remove="true"/>
+
     <referenceBlock name="top.links">
       <block class="Magento\Framework\View\Element\Html\Link">
 	<arguments>
