@@ -8,6 +8,19 @@
       </arguments>
     </referenceBlock>
 
+    <referenceBlock name="store.menu" remove="true"/>
+    <referenceBlock name="store.links" remove="true"/>
+
+    <referenceBlock name="navigation.sections">
+      <block class="Magento\Framework\View\Element\Text" name="menu.links" group="navigation-sections">
+        <arguments>
+          <argument name="title" translate="true" xsi:type="string">Menu</argument>
+          <argument name="use_force" xsi:type="boolean">true</argument>
+          <argument name="text" xsi:type="string"><![CDATA[<!-- Menu links -->]]></argument>
+        </arguments>
+      </block>
+    </referenceBlock>
+
     <move element="top.links" destination="header-wrapper" before="top.search"/>
 
     <referenceBlock name="header" remove="true"/>
