@@ -15,12 +15,18 @@
 
 & when (@media-common = true) {
 
-    .panel.header,
-    .header.content {
+    .panel.header {
 	float: left;
 	margin-bottom: 5px;
 	
         .links,
+        .switcher {
+            display: none;
+        }
+    }
+
+    .header.content {
+	.links,
         .switcher {
             display: none;
         }
