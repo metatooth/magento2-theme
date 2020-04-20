@@ -8,7 +8,7 @@
       </arguments>
     </referenceBlock>
 
-    <referenceBlock name="top.links" remove="true"/>
+    <move element="top.links" destination="header-wrapper" before="top.search"/>
 
     <referenceBlock name="catalog.topnav" remove="true"/>
 
@@ -27,7 +27,7 @@
 	  </block>
 	  <block class="Magento\Framework\View\Element\Html\Link">
 	    <arguments>
-	      <argument name="label" xsi:type="string">How To</argument>
+ 	      <argument name="label" xsi:type="string">How To</argument>
 	      <argument name="path" xsi:type="string">impressions</argument>
 	    </arguments>
 	  </block>
