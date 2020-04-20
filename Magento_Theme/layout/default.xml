@@ -13,31 +13,31 @@
     <referenceBlock name="top.links">
       <block class="Magento\Framework\View\Element\Html\Link">
 	<arguments>
-	  <argument name="label" xsi:type="string">Shop</argument>
+	  <argument name="label" translate="true" xsi:type="string">Shop</argument>
 	  <argument name="path" xsi:type="string">hard-nightguard.html</argument>
 	</arguments>
       </block>
       <block class="Magento\Framework\View\Element\Html\Link">
 	<arguments>
-          <argument name="label" xsi:type="string">How To</argument>
+          <argument name="label" translate="true" xsi:type="string">How To</argument>
 	  <argument name="path" xsi:type="string">impressions</argument>
 	</arguments>
       </block>
       <block class="Magento\Framework\View\Element\Html\Link">
 	<arguments>
-	  <argument name="label" xsi:type="string">FAQ</argument>
+	  <argument name="label" translate="true" xsi:type="string">FAQ</argument>
 	  <argument name="path" xsi:type="string">faq</argument>
 	</arguments>
       </block>
       <block class="Magento\Framework\View\Element\Html\Link">
 	<arguments>
-	  <argument name="label" xsi:type="string">About</argument>
+	  <argument name="label" translate="true" xsi:type="string">About</argument>
 	  <argument name="path" xsi:type="string">about</argument>
 	</arguments>
       </block>
       <block class="Magento\Framework\View\Element\Html\Link">
 	<arguments>
-	  <argument name="label" xsi:type="string">Contact</argument>
+	  <argument name="label" translate="true" xsi:type="string">Contact</argument>
 	  <argument name="path" xsi:type="string">contact</argument>
 	</arguments>
       </block>
