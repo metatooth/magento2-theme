@@ -583,8 +583,8 @@ define([
                 this.mobileNav.prepend(footerSettings);
             }
 
-            if ($('.header.panel .header.links li').length) {
-                account = $('.header.panel > .header.links')
+            if ($('.header.content .header.links li').length) {
+                account = $('.header.content > .header.links')
                     .clone()
                     .addClass('account');
 
