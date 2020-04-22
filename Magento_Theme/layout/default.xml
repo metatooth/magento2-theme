@@ -13,6 +13,7 @@
 
     <move element="top.links" destination="header-wrapper" before="top.search"/>
 
+    <referenceBlock name="catalog.compare.link" remove="true"/>
     <referenceBlock name="header" remove="true"/>
     <referenceBlock name="my-account-link" remove="true"/>
     <referenceBlock name="register-link" remove="true"/>
