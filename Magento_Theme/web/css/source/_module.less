@@ -117,8 +117,22 @@
 	}
 
 	.header.content {
+            .lib-css(background-color, @header-panel__background-color);
+            .lib-css(color, @header-panel__color);
 	    clear: both;
 	    padding: 0px 10px;
+
+            a {
+                .lib-link(
+                    @_link-color: @header-panel__color,
+                    @_link-text-decoration: none,
+                    @_link-color-visited: @header-panel__color,
+                    @_link-text-decoration-visited: none,
+                    @_link-color-hover: @header-panel__color,
+                    @_link-text-decoration-hover: underline,
+                    @_link-color-active: @header-panel__color,
+                    @_link-text-decoration-active: underline
+                );
 	}
     }
 
