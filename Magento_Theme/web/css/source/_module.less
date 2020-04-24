@@ -21,7 +21,10 @@
 
 @header__background-color: @threetwenty-color-pink;
 @header-panel__background-color: @threetwenty-color-pink;
-@header-panel__text-color: @color-white;
+@header-panel__color: @color-white;
+@header-panel-link__color: @color-white;
+@header-panel-link__color-hover: @color-white;
+@header-panel-link__color-active: @color-white;
 @header-icons-color: @color-white;
 @header-icons-color-hover: darken(@color-white, 10%);
 @customer-welcome__z-index: @dropdown-list__z-index + 1;
@@ -95,19 +98,19 @@
             .lib-css(color, @header-panel__text-color);
         }
 
-        .header.content {
+        .header.panel {
             .lib-css(background-color, @header-panel__background-color);
             .lib-css(color, @header-panel__text-color);
 
             a {
                 .lib-link(
-                    @_link-color: @header-panel__text-color,
+                    @_link-color: @header-panel__color,
                     @_link-text-decoration: none,
-                    @_link-color-visited: @header-panel__text-color,
+                    @_link-color-visited: @header-panel__color,
                     @_link-text-decoration-visited: none,
-                    @_link-color-hover: @header-panel__text-color,
+                    @_link-color-hover: @header-panel__color,
                     @_link-text-decoration-hover: underline,
-                    @_link-color-active: @header-panel__text-color,
+                    @_link-color-active: @header-panel__color,
                     @_link-text-decoration-active: underline
                 );
 	    }
@@ -132,13 +135,13 @@
 
                 > a {
                     .lib-link(
-                    @_link-color: @header-panel__text-color,
+                    @_link-color: @header-panel_color,
                     @_link-text-decoration: none,
-                    @_link-color-visited: @header-panel__text-color,
+                    @_link-color-visited: @header-panel__color,
                     @_link-text-decoration-visited: none,
-                    @_link-color-hover: @header-panel__text-color,
+                    @_link-color-hover: @header-panel__color,
                     @_link-text-decoration-hover: underline,
-                    @_link-color-active: @header-panel__text-color,
+                    @_link-color-active: @header-panel__color,
                     @_link-text-decoration-active: underline
                     );
                 }
