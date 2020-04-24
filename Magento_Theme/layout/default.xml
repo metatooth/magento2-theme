@@ -48,6 +48,8 @@
 
     <move element="authorization-link" destination="header-wrapper" before="top.search" />
 
+    <referenceBlock name="catalog.topnav" display="false"/>
+
     <referenceBlock name="report.bugs" remove="true"/>
 
     <referenceBlock name="contact-us-link">
