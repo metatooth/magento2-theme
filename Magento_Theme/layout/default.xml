@@ -59,6 +59,7 @@
 
 
     <referenceBlock name="footer_links">
+      <referenceBlock name="sales-guest-form-link" remove="true"/>
       <referenceBlock name="catalog-search-advanced-link" remove="true"/>
       <referenceBlock name="search-term-popular-link" remove="true"/>
 
