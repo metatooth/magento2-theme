@@ -63,7 +63,7 @@
       <referenceBlock name="catalog-search-advanced-link" remove="true"/>
       <referenceBlock name="search-term-popular-link" remove="true"/>
 
-      <block class="Magento\Framework\View\Element\Html\Link\Current" name="blog-link" after="contact-us-link">
+      <block class="Magento\Framework\View\Element\Html\Link\Current" name="blog-link" before="-">
         <arguments>
           <argument name="label" xsi:type="string">Blog</argument>
           <argument name="path" xsi:type="string">blog</argument>
