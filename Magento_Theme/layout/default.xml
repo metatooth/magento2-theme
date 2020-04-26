@@ -69,6 +69,7 @@
       <referenceBlock name="sales-guest-form-link" remove="true"/>
       <referenceBlock name="catalog-search-advanced-link" remove="true"/>
       <referenceBlock name="search-term-popular-link" remove="true"/>
+      <referenceBlock name="privacy-policy-link" remove="true"/>
 
       <block class="Magento\Framework\View\Element\Html\Link\Current" name="blog-link" before="-">
         <arguments>
