@@ -57,6 +57,13 @@
         </arguments>
     </referenceBlock>
 
+    <referenceBlock name="footer">
+      <block class="Magento\Cms\Block\Block" name="footer_social_links">
+	<arguments>
+	  <argument name="block_id" xsi:type="string" translate="true">metatooth_footer_social_links</argument>
+	</arguments>
+      </block>
+    </referenceBlock>
 
     <referenceBlock name="footer_links">
       <referenceBlock name="sales-guest-form-link" remove="true"/>
