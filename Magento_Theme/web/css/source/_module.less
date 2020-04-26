@@ -332,6 +332,27 @@
 	    .social-links {
                 .lib-css(background, @footer__background-color);
                 .lib-font-size(16);
+                border-top: 1px solid @footer-links-separator-border-color;
+                margin: 0 -@layout__width-xs-indent;
+                padding: 0 @layout__width-xs-indent;	
+
+		a {
+                    display: block;
+                    padding: @indent__s 0;
+		}
+		
+		a {
+                    .lib-link(
+                    @_link-color: @footer-links-color,
+                    @_link-text-decoration: none,
+                    @_link-color-visited: @footer-links-color,
+                    @_link-text-decoration-visited: none,
+                    @_link-color-hover: @footer-links-color-hover,
+                    @_link-text-decoration-hover: underline,
+                    @_link-color-active: @footer-links-color-hover,
+                    @_link-text-decoration-active: underline
+                    );
+		}
 	    }
         }
     }
