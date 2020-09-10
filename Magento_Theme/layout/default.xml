@@ -17,7 +17,7 @@
       <block class="Magento\Framework\View\Element\Html\Link\Current">
 	<arguments>
 	  <argument name="label" translate="true" xsi:type="string">Shop</argument>
-	  <argument name="path" xsi:type="string">hard-nightguard.html</argument>
+	  <argument name="path" xsi:type="string">impression-kit.html</argument>
 	</arguments>
       </block>
       <block class="Magento\Framework\View\Element\Html\Link\Current">
